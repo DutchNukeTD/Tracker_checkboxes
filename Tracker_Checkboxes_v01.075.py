@@ -6,6 +6,8 @@
 This will give you the control to select multiple trackers: '1', '1-6', '1 6' or 'ALL' and set the checkboxes for all of them.
 By hitting the 'execute'button. """
 
+import nuke
+
 def trackerTab():
     ## This creates the new tab folder with the needed buttons.
     ## Adds the tab folder when user creates a tracker node.
