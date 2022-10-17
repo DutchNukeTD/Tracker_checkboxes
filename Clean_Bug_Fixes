@@ -184,7 +184,7 @@ def trackerTab():
     node.addKnob(s_boolean_knob)
 
     pyknob = nuke.PyScript_Knob(
-        "check_tracker_boxes", "execute", "nuke.thisNode() tracker_checkboxes()"
+        "check_tracker_boxes", "execute", "nuke.thisNode() \ntracker_checkboxes()"
     )
     pyknob.setFlag(nuke.STARTLINE)
     node.addKnob(pyknob)
